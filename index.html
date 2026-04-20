@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerr Black Hole Raymarcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="controls">
+  <label for="spinSlider">Black Hole Spin (a*): <span id="spinValue">0.990</span></label>
+  <input type="range" id="spinSlider" min="0.0" max="0.998" step="0.001" value="0.990">
+  <label for="tiltSlider">System Tilt: <span id="tiltValue">15°</span></label>
+  <input type="range" id="tiltSlider" min="-90" max="90" step="1" value="15">
+</div>
+
+<!-- Import Maps for Three.js -->
+<script type="importmap">
+  {
+      "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+  }
+</script>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

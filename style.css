@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    color: white;
+    font-family: monospace;
+}
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+    text-shadow: 1px 1px 2px black;
+}
+#controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type=range] {
+    width: 250px;
+    cursor: pointer;
+}
