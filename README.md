@@ -68,3 +68,13 @@ Since this entire simulation is contained within a single HTML file, you don't n
 3. Use the control panel to tweak parameters such as spin, tilt, disk turbulence, and camera effects.
 
 *Pro-tip: If the simulation lags on your GPU, drop the resolution to **Ultimate Potato** to explore the scene, pause the simulation, turn the resolution up to **Ultra**, and let the engine render a pristine, mathematically complete screenshot frame.*
+
+---
+
+## 🖤 Inspiration & Credits
+
+This project was heavily inspired by the incredible work of **Kavan** and his viral video ["Simulating Black Holes in C++"](https://www.youtube.com/watch?v=8-B6ryuBkCM). 
+
+Kavan's brilliant breakdown of raytracing math and space curvature laid the conceptual foundation for this project. As a fellow young developer (he is 17 and I am 15), seeing what he achieved motivated me to take the concept a step further by implementing a rotating Kerr singularity, a two-pass screen-space HDR lens pipeline, and optimization presets to bring relativistic physics straight to the web browser.
+
+Go check out his original video and support his channel!
