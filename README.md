@@ -71,7 +71,7 @@ Since this entire simulation is contained within a single HTML file, you don't n
 
 ---
 
-## 🖤 Inspiration & Credits
+## Inspiration & Credits
 
 This project was heavily inspired by the incredible work of **Kavan** and his viral video ["Simulating Black Holes in C++"](https://www.youtube.com/watch?v=8-B6ryuBkCM). 
 
